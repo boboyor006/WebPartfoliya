@@ -43,7 +43,7 @@ const Index = () => {
           </div>
           
           <h1 className="text-4xl md:text-5xl font-bold mb-2 text-slate-800 opacity-0 animate-fade-in delay-100">
-            Ermatov Shohjaxon
+          Tursunaliyev Ziloldin
           </h1>
           
           <div className="location-badge opacity-0 animate-fade-in delay-200">
@@ -52,19 +52,24 @@ const Index = () => {
           </div>
           
           <p className="text-lg text-slate-600 max-w-xl mx-auto mt-4 opacity-0 animate-fade-in delay-300">
-            Asalomu alikum hammga 
+          💎 Tajribali va professional yuz-jag’ jarrohi
+          Tursunaliev Ziloldin – estetik va rekonstruktiv jarrohlik sohasida yetakchi mutaxassislardan biri. 
+          Yuqori aniqlik va zamonaviy texnologiyalar yordamida yuz va jag’ sohasidagi muammolarni bartaraf etishga ixtisoslashgan.
           </p>
         </div>
       </div>
       
       {/* About Section */}
-      <Section id="about" title="Biz haqimizda ">
+      <Section id="about" title="👨🏻‍💻 Biz haqimizda ">
         <div className="max-w-2xl mx-auto text-center opacity-0 animate-fade-in delay-200">
           <p className="text-slate-600 mb-4">
-            ?
+          Bizning maqsadimiz – shogirdlarimizni natijaga yo‘naltirish va ularga eng yuqori 
+          sifatli bilim berish. Tajribali yondashuv, zamonaviy usullar va doimiy qo‘llab-quvvatlash 
+          orqali biz shogirdlarimizning maqsadlariga tezroq erishishlariga yordam beramiz.
+
           </p>
           <p className="text-slate-600">
-            ?
+          🎯 Natijaga yo‘naltirilgan ta’lim – bizning ustuvor maqsadimiz!
           </p>
         </div>
       </Section>
@@ -73,26 +78,26 @@ const Index = () => {
       <Section id="services" title="Bo'limalar">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <ServiceCard
-            title="Cosmetic Dentistry"
-            description="Bizda cosmetga bo'limi ham mavjud"
+            title="👨🏻‍⚕️ Yuz Jaroxligi"
+            description="Tursunaliyev Ziloldin "
             icon={<Heart size={24} />}
             delay="delay-100"
           />
           <ServiceCard
             title="Xirur "
-            description="buzda xirur ham mavjud "
+            description="Tursunaliyev Ziloldin "
             icon={<Activity size={24} />}
             delay="delay-200"
           />
           <ServiceCard
-            title="Xirur "
-            description="Xirur xam mavjud "
+            title="Xafsizlik "
+            description="kafolatlanadi va Tursunaliyev Ziloldin tamonidan   "
             icon={<ShieldCheck size={24} />}
             delay="delay-300"
           />
           <ServiceCard
             title="Bosh bolganlar sanalar "
-            description="Men Ermatov Shoxjaxon asosan ish kunlari bo'laman "
+            description="Yakshanba kunlar soat 10:00dan 15:00gacha "
             icon={<CalendarClock size={24} />}
             delay="delay-400"
           />
@@ -140,7 +145,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 text-center text-sm text-slate-500">
         <div className="container">
-          <p>© {new Date().getFullYear()} Ermatov Shoxjaxon </p>
+          <p>© {new Date().getFullYear()} Tursunaliyev Ziloldin</p>
         </div>
       </footer>
     </div>

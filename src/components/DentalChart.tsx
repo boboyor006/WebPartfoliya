@@ -72,14 +72,14 @@ const DentalChart = () => {
           <Legend />
           <Bar 
             dataKey="patients" 
-            name="Patients Seen" 
+            name="Ishga kirgan o'quchilar " 
             fill="hsl(246, 84%, 65%)" 
             radius={[4, 4, 0, 0]}
             animationDuration={1500}
           />
           <Bar 
             dataKey="procedures" 
-            name="Procedures Done" 
+            name="Ishga kirmahan o'quvchilar" 
             fill="hsl(246, 84%, 75%)" 
             radius={[4, 4, 0, 0]}
             animationDuration={1500}
